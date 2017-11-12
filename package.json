@@ -1,0 +1,22 @@
+{
+  "name": "i18n-example",
+  "version": "1.0.0",
+  "description": "i18n demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scan": "i18next-scanner --config bin/i18next-scanner.config.js 'src/**/*.{js,jsx,html}'"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "yangnan.yang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "i18next": "^10.0.7",
+    "i18next-scanner": "^2.1.1",
+    "vinyl-fs": "^2.4.4"
+  }
+}
