@@ -2,5 +2,10 @@
   "test": "__STRING_NOT_TRANSLATED__",
   "name": "__STRING_NOT_TRANSLATED__",
   "click": "DNSJ",
-  "haha": "__STRING_NOT_TRANSLATED__"
+  "haha": "__STRING_NOT_TRANSLATED__",
+  "switch": "switch Chinese",
+  "content": {
+    "title": "hello！__name__",
+    "tip": "english"
+  }
 }

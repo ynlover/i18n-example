@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scan": "i18next-scanner --config bin/i18next-scanner.config.js 'src/**/*.{js,jsx,html}'"
+    "scan": "i18next-scanner --config bin/i18next-scanner.config.js 'src/**/*.{js,jsx,html}'",
+    "getText": "i18next-conv -l en -s ./i18n/en/translation.json -t ./i18n/en/translation.po"
   },
   "keywords": [
     "i18n"
@@ -13,16 +14,12 @@
   "author": "yangnan.yang",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.0",
     "commander": "^2.11.0",
-    "i18next": "^10.0.7",
     "i18next-client": "^1.11.4",
+    "i18next-conv": "^5.0.0",
     "i18next-scanner": "^2.1.1",
+    "jquery": "^3.2.1",
     "vinyl-fs": "^2.4.4"
   }
 }

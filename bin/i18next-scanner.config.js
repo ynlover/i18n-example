@@ -7,7 +7,7 @@ module.exports = {
         func: {
             list: ['i18next.t', 'i18n.t']
         },
-        lngs: ['en','de'],
+        lngs: ['en','cn'],
         ns: [
             'locale'
         ],
